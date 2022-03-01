@@ -16,8 +16,9 @@ private:
 };
 
 // constructor
-A::A(const std::vector<int>& indata) {
-    data = indata;
+A::A(const std::vector<int>& data)
+    : data(data)
+{
 }
 
 int main() {

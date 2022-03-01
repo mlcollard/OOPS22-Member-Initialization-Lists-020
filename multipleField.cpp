@@ -17,7 +17,9 @@ private:
 };
 
 // constructor
-A::A() : data(10000, ' '), n(5) {
+A::A()
+    : n(5), data(10000, ' ')
+{
 }
 
 int main() {
